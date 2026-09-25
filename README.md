@@ -80,32 +80,47 @@ In the rapidly growing pre-owned automotive retail industry in India, automobile
 ---
 
 ## 6. Project Directory Structure
-```
-.
-├── README.md                                  # Submission summary and technical specifications
-├── analysis.ipynb                             # Complete Jupyter Notebook with code, plots & outputs
-├── Case_Study_Report.pdf                      # Formal Case Study Report in prescribed format (8-10 pp)
-├── Case_Study_Report.docx                     # Editable Word version of formal report
-├── data/                                      # Data directory containing all datasets
-│   ├── scraped_listings_raw.csv               # Raw scraped marketplace listings (10,505 rows)
-│   ├── drivewise_market_history.csv           # Cleaned & engineered dataset (10,468 rows, 28 brands, 295 cities)
-│   ├── drivewise_acquisition_pool.csv         # 1,500 sampled vehicles with dealer operational economics
-│   ├── drivewise_pool_with_dii.csv            # Fully evaluated pool with 6 component percentiles and DII
-│   ├── drivewise_portfolio_recommendations.csv # Optimal recommendations across budget tiers
-│   └── DATA_DICTIONARY.md                     # Schema documentation and operational formulas
-├── 01_data_pipeline.py                        # Data cleaning, deduplication & operational simulation
-├── 02_scraper (1).py                          # Polite live web crawler for CarDekho India
-├── 03_predictive_models.py                    # Predictive ML training (XGBoost, RF, Isolation Forest)
-├── 04_dii_scoring.py                          # DII multi-objective scoring & sensitivity analysis
-├── 05_portfolio_optimizer.py                  # MILP 0/1 knapsack optimization & dynamic pricing
-├── 06_multi_agent_orchestrator.py             # 8-agent autonomous sequential orchestration
-├── 07_explainability.py                       # Explainable AI feature importance & decision cards
-├── 08_evaluation_backtest.py                  # Model subgroup evaluation, deciles & stress testing
-├── 09_generate_final_report.py                # Final project report generator
-├── 10_generate_project_audit_documentation.py # Master documentation generator
-└── models/ & artifacts                        # Serialized .joblib models, CSV evaluation tables & logs
-```
 
+The repository contains the main analysis notebook, source code, collected data, trained models, evaluation outputs, and project documentation.
+
+```text
+.
+├── README.md
+├── analysis.ipynb
+├── Case_Study_Report.pdf
+├── Case_Study_Report.docx
+│
+├── data/
+│   ├── scraped_listings_raw.csv
+│   ├── fair_value_model_comparison.csv
+│   ├── evaluation_stress_testing.csv
+│   ├── evaluation_strategy_comparison.csv
+│   ├── evaluation_dii_deciles.csv
+│   ├── drivewise_shap_explanations.csv
+│   ├── drivewise_market_history.csv
+│   ├── drivewise_feature_importance.csv
+│   ├── drivewise_acquisition_pool_scored.csv
+│   ├── drivewise_acquisition_pool.csv
+│   └── depreciation_curves.csv
+│
+├── 01_data_pipeline.py
+├── 02_scraper.py
+├── 03_predictive_models.py
+├── 04_dii_scoring.py
+├── 05_portfolio_optimizer.py
+├── 06_multi_agent_orchestrator.py
+├── 07_explainability.py
+├── 08_evaluation_backtest.py
+├── predict_single_car.py
+│
+├── models/
+│   ├── demand_dom_model.joblib
+│   ├── fair_value_freq_maps.joblib
+│   ├── fair_value_model.joblib
+│   └── risk_model_isolationforest.joblib
+│
+└── DATA_DICTIONARY.md
+```
 ---
 
 ## 7. Key References
