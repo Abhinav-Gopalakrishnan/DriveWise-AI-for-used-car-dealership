@@ -1,0 +1,13 @@
+strategy,scenario,capital_invested,realized_profit,profit_margin_pct,profit_retention_pct,profit_drawdown_pct
+DriveWise AI+ Optimizer,Base Case,9998193,4042972,40.4,100.0,0.0
+DriveWise AI+ Optimizer,"Mild Softening (-5% price, +10% DOM)",9998193,3225138,32.3,79.8,-20.2
+DriveWise AI+ Optimizer,"Moderate Downturn (-10% price, +25% DOM, +15% recon)",9998193,2357945,23.6,58.3,-41.7
+DriveWise AI+ Optimizer,"Severe Shock (-15% price, +50% DOM, +30% recon)",9998193,1424336,14.2,35.2,-64.8
+Greedy by DII,Base Case,9975692,3598191,36.1,100.0,0.0
+Greedy by DII,"Mild Softening (-5% price, +10% DOM)",9975692,2825142,28.3,78.5,-21.5
+Greedy by DII,"Moderate Downturn (-10% price, +25% DOM, +15% recon)",9975692,2016808,20.2,56.1,-43.9
+Greedy by DII,"Severe Shock (-15% price, +50% DOM, +30% recon)",9975692,1149404,11.5,31.9,-68.1
+Cheapest First (Volume),Base Case,4286659,1307558,30.5,100.0,0.0
+Cheapest First (Volume),"Mild Softening (-5% price, +10% DOM)",4286659,894822,20.9,68.4,-31.6
+Cheapest First (Volume),"Moderate Downturn (-10% price, +25% DOM, +15% recon)",4286659,423079,9.9,32.4,-67.6
+Cheapest First (Volume),"Severe Shock (-15% price, +50% DOM, +30% recon)",4286659,-122681,-2.9,-9.4,-109.4

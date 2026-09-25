@@ -1,0 +1,21 @@
+budget_inr,budget_label,strategy,n_vehicles,capital_deployed,capital_utilization_pct,total_profit,portfolio_roi_pct,avg_risk_score,avg_days_on_market
+2500000,Rs.25 Lakh,Random Selection (Monte Carlo avg),6,2486767,99.5,504726,20.29,53.9,41.4
+2500000,Rs.25 Lakh,Cheapest First (Volume Heuristic),26,2453435,98.1,762543,31.08,75.1,28.0
+2500000,Rs.25 Lakh,Greedy by Profit,2,2489889,99.6,906265,36.4,76.0,22.5
+2500000,Rs.25 Lakh,Greedy by DII,7,2499117,100.0,912143,36.5,21.1,23.1
+2500000,Rs.25 Lakh,DriveWise AI+ MILP Optimizer,18,2499710,100.0,1079434,43.18,70.1,22.8
+5000000,Rs.50 Lakh,Random Selection (Monte Carlo avg),9,4983072,99.7,976275,19.59,52.5,42.6
+5000000,Rs.50 Lakh,Cheapest First (Volume Heuristic),40,4286659,85.7,1307558,30.5,69.6,31.9
+5000000,Rs.50 Lakh,Greedy by Profit,2,4992183,99.8,1605041,32.15,86.7,10.0
+5000000,Rs.50 Lakh,Greedy by DII,10,4998340,100.0,1826734,36.55,16.8,21.4
+5000000,Rs.50 Lakh,DriveWise AI+ MILP Optimizer,26,4999831,100.0,2089010,41.78,71.4,19.0
+10000000,Rs.1.0 Crore,Random Selection (Monte Carlo avg),14,9984637,99.8,1921067,19.24,52.4,43.9
+10000000,Rs.1.0 Crore,Cheapest First (Volume Heuristic),40,4286659,42.9,1307558,30.5,69.6,31.9
+10000000,Rs.1.0 Crore,Greedy by Profit,1,9995117,100.0,3562098,35.64,100.0,20.0
+10000000,Rs.1.0 Crore,Greedy by DII,19,9975692,99.8,3598191,36.07,16.6,21.8
+10000000,Rs.1.0 Crore,DriveWise AI+ MILP Optimizer,32,9998193,100.0,4042972,40.44,62.0,19.3
+20000000,Rs.2.0 Crore,Random Selection (Monte Carlo avg),25,19988284,99.9,3819044,19.11,51.8,44.7
+20000000,Rs.2.0 Crore,Cheapest First (Volume Heuristic),40,4286659,21.4,1307558,30.5,69.6,31.9
+20000000,Rs.2.0 Crore,Greedy by Profit,3,19978576,99.9,7154716,35.81,95.2,16.0
+20000000,Rs.2.0 Crore,Greedy by DII,35,19998366,100.0,6989107,34.95,19.6,21.9
+20000000,Rs.2.0 Crore,DriveWise AI+ MILP Optimizer,40,19997065,100.0,7879018,39.4,59.6,18.7
